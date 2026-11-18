@@ -1,7 +1,7 @@
 # Oculus GateWeb — AI-Powered Gate Monitoring & Personnel Counting System
 
 <p align="center">
-  <img src="Assets/02-live-dashboard.png" alt="Oculus GateWeb Live Dashboard">
+  <img src="Assets/00-cover.png" alt="Oculus GateWeb — AI-Powered Gate Monitoring">
 </p>
 
 Oculus GateWeb is a fully offline, edge-deployed computer vision and facility security platform that automates aggregate pedestrian and vehicle crossing counts at controlled facility access gates. Designed with strict privacy-preserving principles, the system captures verified visual evidence snapshots, records every crossing in a cryptographically tamper-evident audit log, and delivers shift-by-shift compliance reporting. The platform operates without facial recognition, biometrics, or persistent personal identification.
@@ -10,9 +10,11 @@ Oculus GateWeb is a fully offline, edge-deployed computer vision and facility se
 
 ## System Interface Gallery
 
+<sub>Click any screenshot to open the full-length page.</sub>
+
 ### Live Operational Dashboard & Kiosk View
 <table><tr>
-<td valign="top" width="50%"><img src="Assets/02-live-dashboard.png" alt="Operational Live Dashboard" width="100%"></td>
+<td valign="top" width="50%"><a href="Assets/02-live-dashboard.png"><img src="Assets/preview/02-live-dashboard.png" alt="Operational Live Dashboard" width="100%"></a></td>
 <td valign="top" width="50%"><img src="Assets/03-kiosk-view.png" alt="Guard Post Kiosk View" width="100%"></td>
 </tr></table>
 
@@ -40,7 +42,7 @@ Oculus GateWeb is a fully offline, edge-deployed computer vision and facility se
 ### Camera Management, Gate Geometry & Advanced Calibration
 <table><tr>
 <td valign="top" width="50%"><img src="Assets/09-camera-setup.png" alt="Network Camera Setup" width="100%"></td>
-<td valign="top" width="50%"><img src="Assets/10-gate-setup.png" alt="Interactive Gate Configuration" width="100%"></td>
+<td valign="top" width="50%"><a href="Assets/10-gate-setup.png"><img src="Assets/preview/10-gate-setup.png" alt="Interactive Gate Configuration" width="100%"></a></td>
 </tr></table>
 <p align="center">
   <img src="Assets/11-calibration.png" alt="Advanced Versioned Calibration">
@@ -55,10 +57,14 @@ Oculus GateWeb is a fully offline, edge-deployed computer vision and facility se
 <td valign="top" width="50%"><img src="Assets/12-audit-log.png" alt="Tamper-Evident Audit Log" width="100%"></td>
 <td valign="top" width="50%"><img src="Assets/08-system-health.png" alt="Component Health Diagnostics" width="100%"></td>
 </tr></table>
+### Access Control & Administration
 <table><tr>
 <td valign="top" width="50%"><img src="Assets/01-sign-in.png" alt="Role-Based System Access" width="100%"></td>
 <td valign="top" width="50%"><img src="Assets/14-account-sessions.png" alt="Account Session Security" width="100%"></td>
 </tr></table>
+<p align="center">
+  <img src="Assets/13-administration.png" alt="System Administration">
+</p>
 
 - **Tamper-Evident Audit Log:** Cryptographically hash-chained audit trail capturing all system events including user sign-ins, evidence views, configuration modifications, and supervisor review decisions. Operators can verify the cryptographic chain integrity at any time.
 - **System Health Monitor:** Real-time health diagnostic dashboard monitoring every system service (API, Database, Audit, Storage, Vision Pipeline, Camera RTSP Feed, Counting Engine, Evidence Store, and Host Metrics including CPU, RAM, and GPU temperature/utilization).
