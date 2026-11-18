@@ -11,37 +11,37 @@ Oculus GateWeb is a fully offline, edge-deployed computer vision and facility se
 ## System Interface Gallery
 
 ### Live Operational Dashboard & Kiosk View
-<p align="center">
-  <img src="Assets/02-live-dashboard.png" alt="Operational Live Dashboard" width="49%">
-  <img src="Assets/03-kiosk-view.png" alt="Guard Post Kiosk View" width="49%">
-</p>
+<table><tr>
+<td valign="top" width="50%"><img src="Assets/02-live-dashboard.png" alt="Operational Live Dashboard" width="100%"></td>
+<td valign="top" width="50%"><img src="Assets/03-kiosk-view.png" alt="Guard Post Kiosk View" width="100%"></td>
+</tr></table>
 
 - **Operational Live Dashboard:** Real-time monitoring hub reporting current-shift and daily cumulative counts of humans, vehicles, and two-wheelers across individual gate boundaries (Main Gate, Side Gate) and aggregated facility totals. Features a low-latency live video feed with detection bounding box overlays, line-crossing vectors, and a streaming log of recent crossings with thumbnail evidence.
 - **Guard Post Kiosk View:** A clean, distraction-free wall display interface optimized for security guard posts and gate control rooms. Maximizes visibility of real-time directional movement, active lane statuses, and system operational health without administrative controls.
 
 ### Event Logging & Supervisor Verification Queue
-<p align="center">
-  <img src="Assets/04-event-log.png" alt="Audited Event Log" width="49%">
-  <img src="Assets/05-review-queue.png" alt="Supervisor Review Queue" width="49%">
-</p>
+<table><tr>
+<td valign="top" width="50%"><img src="Assets/04-event-log.png" alt="Audited Event Log" width="100%"></td>
+<td valign="top" width="50%"><img src="Assets/05-review-queue.png" alt="Supervisor Review Queue" width="100%"></td>
+</tr></table>
 
 - **Audited Event Log:** Filterable historical registry of every crossing event containing timestamp, gate identifier, direction (In / Out), object classification (Person, Car, Two-Wheeler), detection confidence score, validation status, and visual evidence photo.
 - **Supervisor Review Queue:** A dedicated human-in-the-loop verification workspace where ambiguous or low-confidence line crossings (such as occluded trajectories or incomplete transits) are queued for supervisor confirmation, rejection, or manual classification adjustment, with every decision captured in the audit trail.
 
 ### Traffic Analytics & Shift Reporting
-<p align="center">
-  <img src="Assets/06-analytics.png" alt="Hourly Traffic Analytics" width="49%">
-  <img src="Assets/07-shift-reports.png" alt="Automated Shift Reports" width="49%">
-</p>
+<table><tr>
+<td valign="top" width="50%"><img src="Assets/06-analytics.png" alt="Hourly Traffic Analytics" width="100%"></td>
+<td valign="top" width="50%"><img src="Assets/07-shift-reports.png" alt="Automated Shift Reports" width="100%"></td>
+</tr></table>
 
 - **Flow Analytics:** Hourly breakdown of facility entries and exits by classification category across selectable time ranges (last 24 hours, week, month), accompanied by honest tracking coverage metrics indicating uptime versus downtime.
 - **Automated Shift Reports:** Automated Excel and structured report generator compiling total traffic distributions, peak throughput hours, and gate utilization across morning, evening, and night operational shifts.
 
 ### Camera Management, Gate Geometry & Advanced Calibration
-<p align="center">
-  <img src="Assets/09-camera-setup.png" alt="Network Camera Setup" width="49%">
-  <img src="Assets/10-gate-setup.png" alt="Interactive Gate Configuration" width="49%">
-</p>
+<table><tr>
+<td valign="top" width="50%"><img src="Assets/09-camera-setup.png" alt="Network Camera Setup" width="100%"></td>
+<td valign="top" width="50%"><img src="Assets/10-gate-setup.png" alt="Interactive Gate Configuration" width="100%"></td>
+</tr></table>
 <p align="center">
   <img src="Assets/11-calibration.png" alt="Advanced Versioned Calibration">
 </p>
@@ -51,14 +51,14 @@ Oculus GateWeb is a fully offline, edge-deployed computer vision and facility se
 - **Advanced Calibration Engine:** Precision version-controlled geometry editor for engineering teams to tune crossing width zones, transit thresholds, and multi-zone pocket monitors with documented revision histories.
 
 ### Cryptographic Audit Log & Component Health
-<p align="center">
-  <img src="Assets/12-audit-log.png" alt="Tamper-Evident Audit Log" width="49%">
-  <img src="Assets/08-system-health.png" alt="Component Health Diagnostics" width="49%">
-</p>
-<p align="center">
-  <img src="Assets/01-sign-in.png" alt="Role-Based System Access" width="49%">
-  <img src="Assets/14-account-sessions.png" alt="Account Session Security" width="49%">
-</p>
+<table><tr>
+<td valign="top" width="50%"><img src="Assets/12-audit-log.png" alt="Tamper-Evident Audit Log" width="100%"></td>
+<td valign="top" width="50%"><img src="Assets/08-system-health.png" alt="Component Health Diagnostics" width="100%"></td>
+</tr></table>
+<table><tr>
+<td valign="top" width="50%"><img src="Assets/01-sign-in.png" alt="Role-Based System Access" width="100%"></td>
+<td valign="top" width="50%"><img src="Assets/14-account-sessions.png" alt="Account Session Security" width="100%"></td>
+</tr></table>
 
 - **Tamper-Evident Audit Log:** Cryptographically hash-chained audit trail capturing all system events including user sign-ins, evidence views, configuration modifications, and supervisor review decisions. Operators can verify the cryptographic chain integrity at any time.
 - **System Health Monitor:** Real-time health diagnostic dashboard monitoring every system service (API, Database, Audit, Storage, Vision Pipeline, Camera RTSP Feed, Counting Engine, Evidence Store, and Host Metrics including CPU, RAM, and GPU temperature/utilization).
